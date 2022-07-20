@@ -30,12 +30,6 @@ from sklearn.decomposition import TruncatedSVD
 import joblib
 import os
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('words')
-nltk.download('averaged_perceptron_tagger')
-
 script_dir = os.path.abspath(os.path.dirname( __file__ ))
 
 class corpus_norm:
